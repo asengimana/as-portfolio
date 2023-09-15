@@ -29,3 +29,8 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .project-bg-image {
+    min-height: 450px;
+  }
+}
