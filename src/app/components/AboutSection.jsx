@@ -12,7 +12,7 @@ const AboutSection = () => {
             À propos
           </h2>
           <p className="text-base lg:text-lg about-text">
-            Je suis un développeur web junior passionné par la création
+            Je suis un développeur web passionné par la création
             d&apos;expériences interactives. Ma solide base en React.js, HTML,
             CSS et JavaScript est le fruit de divers projets enrichissants. Mon
             approche vise des interfaces élégantes et réactives, cherchant à
