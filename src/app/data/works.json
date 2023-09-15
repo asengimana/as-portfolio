@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "Booki",
+    "description": "Intégration de l'interface d'un site Internet permettant aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
+    "image": "/images/projects/booki.png",
+    "languages": ["HTML5", "CSS3", "Git"],
+    "tag": ["All", "Web"],
+    "workURL": "https://asengimana.github.io/booki/",
+    "gitURL": "https://github.com/asengimana/booki",
+    "workURLText": "Accéder au site"
+  },
+  {
+    "id": 2,
+    "title": "OhMyFood",
+    "description": "Intégration et dynamisation d'un site “mobile first” qui répertorie les menus de restaurants gastronomiques.",
+    "image": "/images/projects/ohmyfood.png",
+    "languages": ["HTML5", "CSS3", "Sass", "Git"],
+    "tag": ["All", "Web", "Mobile"],
+    "workURL": "https://asengimana.github.io/ohmyfood/",
+    "gitURL": "https://github.com/asengimana/ohmyfood",
+    "workURLText": "Accéder au site"
+  },
+  {
+    "id": 3,
+    "title": "Kasa",
+    "description": "Développement et intégration en responsive d'une application web de location d’appartements entre particuliers, en Reactjs en suivant les maquettes Figma.",
+    "image": "/images/projects/kasa.png",
+    "languages": ["JavaScript", "Reactjs", "Nodejs", "Git", "Figma"],
+    "tag": ["All", "Web"],
+    "workURL": "https://opc-kasa.netlify.app/",
+    "gitURL": "https://github.com/asengimana/kasa",
+    "workURLText": "Accéder au site"
+  },
+  {
+    "id": 4,
+    "title": "Kanap",
+    "description": "Intégration dynamique des éléments d'une API dans les différentes pages web d'une boutique e-commerce de vente de canapés en JavaScript.",
+    "image": "/images/projects/kanapc.png",
+    "languages": ["JavaScript", "Nodejs", "Express", "Git"],
+    "tag": ["All", "Web"],
+    "workURL": "https://github.com/asengimana/kanap",
+    "gitURL": "https://github.com/asengimana/kanap",
+    "workURLText": "Voir le projet sur GitHub"
+  },
+  {
+    "id": 5,
+    "title": "Hot Takes",
+    "description": "Développement d'une API sécurisée pour une application web de critique des sauces piquantes appelée « Hot Takes ».",
+    "image": "/images/projects/hottakesc.png",
+    "languages": ["JavaScript", "Nodejs", "Express", "MongoDB", "Git"],
+    "tag": ["All", "Web"],
+    "workURL": "https://github.com/asengimana",
+    "gitURL": "https://github.com/asengimana/hottakes",
+    "workURLText": "Voir le projet sur GitHub"
+  },
+  {
+    "id": 6,
+    "title": "La Panthère",
+    "description": "Optimisation d'un site web existant en amélioration son référencement (SEO), sa vitesse de chargement et son accessibilité.",
+    "image": "/images/projects/la-pantherec.png",
+    "languages": ["HTML5", "CSS3", "Git"],
+    "tag": ["All", "Web"],
+    "workURL": "https://asengimana.github.io/la-panthere/",
+    "gitURL": "https://github.com/asengimana/la-panthere",
+    "workURLText": "Accéder au site"
+  }
+]
