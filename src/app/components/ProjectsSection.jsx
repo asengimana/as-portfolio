@@ -6,7 +6,7 @@ import { motion, useInView } from "framer-motion";
 import projectsData from "../data/works.json";
 
 const ProjectsSection = () => {
-  const [tag, setTag] = useState("All");
+  const [tag, setTag] = useState("Tous");
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
@@ -31,8 +31,8 @@ const ProjectsSection = () => {
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         <ProjectTag
           onClick={handleTagChange}
-          name="All"
-          isSelected={tag === "All"}
+          name="Tous"
+          isSelected={tag === "Tous"}
         />
         <ProjectTag
           onClick={handleTagChange}
