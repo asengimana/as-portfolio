@@ -14,7 +14,7 @@ const AnimatedNumbers = dynamic(
 const AchievementsSection = () => {
   return (
     <div className="py-8 sm:px-4 xl:gap-16 sm:py-16 xl:px-16 ">
-      <div className="sm:border-[#33353F] sm:border rounded-md sm:py-8 sm:px-16 flex flex-row items-center sm:justify-between flex-wrap">
+      <div className="sm:border-[#33353F] sm:border rounded-md sm:py-8 sm:px-16 flex flex-row items-center sm:justify-between flex-wrap justify-center">
         {skills.map((skill, index) => {
           return (
             <div
