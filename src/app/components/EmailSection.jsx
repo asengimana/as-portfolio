@@ -29,6 +29,9 @@ const EmailSection = () => {
           console.log(result.text);
 
           setMessageSent(true);
+          setTimeout(() => {
+            setMessageSent(false);
+          }, 5000);
         },
         (error) => {
           console.log(error.text);
@@ -112,7 +115,7 @@ const EmailSection = () => {
               name="user_email"
               required
               className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-              placeholder="johndoe@example.com"
+              placeholder="johndoe@google.com"
             />
           </div>
           <div className="mb-6">
@@ -127,14 +130,24 @@ const EmailSection = () => {
               id="message"
               className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
               placeholder="Votre message..."
+              required
             />
           </div>
-          <button
-            type="submit"
-            className="bg-primary-500 hover:bg-primary-600 text-white font-medium py-2.5 px-5 rounded-lg w-full"
-          >
-            {messageSent ? "Message envoyé avec succès !" : "Envoyer"}
-          </button>
+          {!messageSent ? (
+            <button
+              type="submit"
+              className="bg-primary-500 hover:bg-primary-600 text-white font-medium py-2.5 px-5 rounded-lg w-full"
+            >
+              Envoyer
+            </button>
+          ) : (
+            <button
+              type="submit"
+              className="bg-secondary-800 hover:bg-secondary-500 text-white font-medium py-2.5 px-5 rounded-lg w-full"
+            >
+              Message envoyé avec succès !
+            </button>
+          )}
         </form>
       </div>
     </section>
